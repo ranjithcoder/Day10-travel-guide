@@ -6,7 +6,7 @@ import Map from './components/Map/Map'
 
 const App = () => {
     return (
-        <div>
+        <>
             <CssBaseline/>
             <Header/>
             <Grid container spacing={3} style={{width: '100%'}}>
@@ -17,7 +17,7 @@ const App = () => {
                     <Map/>
                 </Grid>
             </Grid>
-        </div>
+        </>
     )
 }
 
